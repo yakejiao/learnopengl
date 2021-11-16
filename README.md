@@ -21,6 +21,8 @@ glxinfo not found： http://www.mshah.io/comp/Spring18/graphics/Lab/1/mac.html
 
 # 2.glTriangle
 
+learnopengl教程：https://learnopengl-cn.github.io/01%20Getting%20started/04%20Hello%20Triangle/#_3
+
 ## 创建macOs工程
 
 ## 创建main.cpp文件
@@ -62,6 +64,10 @@ glxinfo not found： http://www.mshah.io/comp/Spring18/graphics/Lab/1/mac.html
 #### recursive和non-recursive区别，就是是否在你设置的路径下递归搜索
 
 
+### 图形渲染管线
+图形渲染管线可以被划分为两个主要部分：
+* 第一部分把你的3D坐标转换为2D坐标
+* 第二部分是把2D坐标转变为实际的有颜色的像素。
 
 
 # 3. glRectangle
