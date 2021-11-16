@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3281457C273921DE004422C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3281457B273921DE004422C3 /* Assets.xcassets */; };
+		3281457F273921DE004422C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3281457D273921DE004422C3 /* Main.storyboard */; };
+		3281458D273921DE004422C3 /* glTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3281458C273921DE004422C3 /* glTest1Tests.m */; };
+		32814598273921DE004422C3 /* glTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32814597273921DE004422C3 /* glTest1UITests.m */; };
+		328145A727392418004422C3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328145A627392418004422C3 /* OpenGL.framework */; };
+		328145B1273935F4004422C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328145B0273935F4004422C3 /* main.cpp */; };
+		328145B327393930004422C3 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 328145B22739392D004422C3 /* libGLEW.2.2.0.dylib */; };
+		328145B52739399C004422C3 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 328145B427393999004422C3 /* libglfw.3.3.dylib */; };
+		32FAE92D273E60FE00B62B6B /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE92C273E60FE00B62B6B /* glad.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32814589273921DE004422C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3281456A273921D6004422C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32814571273921D6004422C3;
+			remoteInfo = glTest1;
+		};
+		32814594273921DE004422C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3281456A273921D6004422C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32814571273921D6004422C3;
+			remoteInfo = glTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32814572273921D6004422C3 /* glTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3281457B273921DE004422C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3281457E273921DE004422C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32814580273921DE004422C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32814583273921DE004422C3 /* glTest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glTest1.entitlements; sourceTree = "<group>"; };
+		32814588273921DE004422C3 /* glTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3281458C273921DE004422C3 /* glTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glTest1Tests.m; sourceTree = "<group>"; };
+		3281458E273921DE004422C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32814593273921DE004422C3 /* glTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32814597273921DE004422C3 /* glTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glTest1UITests.m; sourceTree = "<group>"; };
+		32814599273921DE004422C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328145A627392418004422C3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		328145A827392569004422C3 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../../../../../../usr/local/lib; sourceTree = "<group>"; };
+		328145AA27392608004422C3 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../../usr/local/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		328145AC27392615004422C3 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../../../../usr/local/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		328145B0273935F4004422C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		328145B22739392D004422C3 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		328145B427393999004422C3 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../../usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		328145B8273E5D4C004422C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32FAE92C273E60FE00B62B6B /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3281456F273921D6004422C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328145A727392418004422C3 /* OpenGL.framework in Frameworks */,
+				328145B327393930004422C3 /* libGLEW.2.2.0.dylib in Frameworks */,
+				328145B52739399C004422C3 /* libglfw.3.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32814585273921DE004422C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32814590273921DE004422C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32814569273921D6004422C3 = {
+			isa = PBXGroup;
+			children = (
+				328145B8273E5D4C004422C3 /* README.md */,
+				32814574273921D6004422C3 /* glTest1 */,
+				3281458B273921DE004422C3 /* glTest1Tests */,
+				32814596273921DE004422C3 /* glTest1UITests */,
+				32814573273921D6004422C3 /* Products */,
+				328145A527392417004422C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32814573273921D6004422C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32814572273921D6004422C3 /* glTest1.app */,
+				32814588273921DE004422C3 /* glTest1Tests.xctest */,
+				32814593273921DE004422C3 /* glTest1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32814574273921D6004422C3 /* glTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				3281457B273921DE004422C3 /* Assets.xcassets */,
+				3281457D273921DE004422C3 /* Main.storyboard */,
+				32FAE92C273E60FE00B62B6B /* glad.c */,
+				32814580273921DE004422C3 /* Info.plist */,
+				32814583273921DE004422C3 /* glTest1.entitlements */,
+				328145B0273935F4004422C3 /* main.cpp */,
+			);
+			path = glTest1;
+			sourceTree = "<group>";
+		};
+		3281458B273921DE004422C3 /* glTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3281458C273921DE004422C3 /* glTest1Tests.m */,
+				3281458E273921DE004422C3 /* Info.plist */,
+			);
+			path = glTest1Tests;
+			sourceTree = "<group>";
+		};
+		32814596273921DE004422C3 /* glTest1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				32814597273921DE004422C3 /* glTest1UITests.m */,
+				32814599273921DE004422C3 /* Info.plist */,
+			);
+			path = glTest1UITests;
+			sourceTree = "<group>";
+		};
+		328145A527392417004422C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328145B427393999004422C3 /* libglfw.3.3.dylib */,
+				328145AC27392615004422C3 /* libGLEW.2.2.0.dylib */,
+				328145B22739392D004422C3 /* libGLEW.2.2.0.dylib */,
+				328145AA27392608004422C3 /* libglfw.3.3.dylib */,
+				328145A827392569004422C3 /* lib */,
+				328145A627392418004422C3 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32814571273921D6004422C3 /* glTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3281459C273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1" */;
+			buildPhases = (
+				3281456E273921D6004422C3 /* Sources */,
+				3281456F273921D6004422C3 /* Frameworks */,
+				32814570273921D6004422C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glTest1;
+			productName = glTest1;
+			productReference = 32814572273921D6004422C3 /* glTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32814587273921DE004422C3 /* glTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3281459F273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1Tests" */;
+			buildPhases = (
+				32814584273921DE004422C3 /* Sources */,
+				32814585273921DE004422C3 /* Frameworks */,
+				32814586273921DE004422C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3281458A273921DE004422C3 /* PBXTargetDependency */,
+			);
+			name = glTest1Tests;
+			productName = glTest1Tests;
+			productReference = 32814588273921DE004422C3 /* glTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32814592273921DE004422C3 /* glTest1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328145A2273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1UITests" */;
+			buildPhases = (
+				3281458F273921DE004422C3 /* Sources */,
+				32814590273921DE004422C3 /* Frameworks */,
+				32814591273921DE004422C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32814595273921DE004422C3 /* PBXTargetDependency */,
+			);
+			name = glTest1UITests;
+			productName = glTest1UITests;
+			productReference = 32814593273921DE004422C3 /* glTest1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3281456A273921D6004422C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yake;
+				TargetAttributes = {
+					32814571273921D6004422C3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					32814587273921DE004422C3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 32814571273921D6004422C3;
+					};
+					32814592273921DE004422C3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 32814571273921D6004422C3;
+					};
+				};
+			};
+			buildConfigurationList = 3281456D273921D6004422C3 /* Build configuration list for PBXProject "glTest1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32814569273921D6004422C3;
+			productRefGroup = 32814573273921D6004422C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32814571273921D6004422C3 /* glTest1 */,
+				32814587273921DE004422C3 /* glTest1Tests */,
+				32814592273921DE004422C3 /* glTest1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32814570273921D6004422C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3281457C273921DE004422C3 /* Assets.xcassets in Resources */,
+				3281457F273921DE004422C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32814586273921DE004422C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32814591273921DE004422C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3281456E273921D6004422C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328145B1273935F4004422C3 /* main.cpp in Sources */,
+				32FAE92D273E60FE00B62B6B /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32814584273921DE004422C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3281458D273921DE004422C3 /* glTest1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3281458F273921DE004422C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32814598273921DE004422C3 /* glTest1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3281458A273921DE004422C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32814571273921D6004422C3 /* glTest1 */;
+			targetProxy = 32814589273921DE004422C3 /* PBXContainerItemProxy */;
+		};
+		32814595273921DE004422C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32814571273921D6004422C3 /* glTest1 */;
+			targetProxy = 32814594273921DE004422C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3281457D273921DE004422C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3281457E273921DE004422C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3281459A273921DE004422C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3281459B273921DE004422C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3281459D273921DE004422C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glTest1/glTest1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
+				INFOPLIST_FILE = glTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3281459E273921DE004422C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glTest1/glTest1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
+				INFOPLIST_FILE = glTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		328145A0273921DE004422C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glTest1.app/Contents/MacOS/glTest1";
+			};
+			name = Debug;
+		};
+		328145A1273921DE004422C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glTest1.app/Contents/MacOS/glTest1";
+			};
+			name = Release;
+		};
+		328145A3273921DE004422C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = glTest1;
+			};
+			name = Debug;
+		};
+		328145A4273921DE004422C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = glTest1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3281456D273921D6004422C3 /* Build configuration list for PBXProject "glTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3281459A273921DE004422C3 /* Debug */,
+				3281459B273921DE004422C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3281459C273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3281459D273921DE004422C3 /* Debug */,
+				3281459E273921DE004422C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3281459F273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328145A0273921DE004422C3 /* Debug */,
+				328145A1273921DE004422C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328145A2273921DE004422C3 /* Build configuration list for PBXNativeTarget "glTest1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328145A3273921DE004422C3 /* Debug */,
+				328145A4273921DE004422C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3281456A273921D6004422C3 /* Project object */;
+}
