@@ -7,24 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3299F8832744EC770088AADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8822744EC770088AADA /* AppDelegate.m */; };
-		3299F8862744EC770088AADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8852744EC770088AADA /* ViewController.m */; };
 		3299F8882744EC7D0088AADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8872744EC7D0088AADA /* Assets.xcassets */; };
 		3299F88B2744EC7D0088AADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8892744EC7D0088AADA /* Main.storyboard */; };
-		3299F88E2744EC7D0088AADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299F88D2744EC7D0088AADA /* main.m */; };
+		3299F8962744ECA40088AADA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8952744ECA40088AADA /* main.cpp */; };
+		3299F8982744ECB80088AADA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8972744ECB70088AADA /* README.md */; };
+		3299F89A2744F2410088AADA /* 6.1.coordinate_systems.vs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */; };
+		3299F89C2744F2660088AADA /* 6.1.coordinate_systems.fs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */; };
+		3299F89F2744F34C0088AADA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F89E2744F34C0088AADA /* OpenGL.framework */; };
+		3299F8A12744F36E0088AADA /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */; };
+		3299F8A32744F37D0088AADA /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */; };
+		3299F8A52744F45E0088AADA /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8A42744F45E0088AADA /* glad.c */; };
+		3299F8A92744F54C0088AADA /* assert in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8A82744F54C0088AADA /* assert */; };
+		3299F8AB2744F8610088AADA /* 6.2.coordinate_systems.vs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */; };
+		3299F8AD2744F8880088AADA /* 6.2.coordinate_systems.fs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */; };
+		3299F8AF2744F8A50088AADA /* main1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8AE2744F8A50088AADA /* main1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3299F87E2744EC770088AADA /* glCoordinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glCoordinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3299F8812744EC770088AADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3299F8822744EC770088AADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3299F8842744EC770088AADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3299F8852744EC770088AADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3299F8872744EC7D0088AADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3299F88A2744EC7D0088AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3299F88C2744EC7D0088AADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3299F88D2744EC7D0088AADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3299F88F2744EC7D0088AADA /* glCoordinate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glCoordinate.entitlements; sourceTree = "<group>"; };
+		3299F8952744ECA40088AADA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3299F8972744ECB70088AADA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.1.coordinate_systems.vs; sourceTree = "<group>"; };
+		3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.1.coordinate_systems.fs; sourceTree = "<group>"; };
+		3299F89E2744F34C0088AADA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../../../usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		3299F8A42744F45E0088AADA /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../include/glad/src/glad.c; sourceTree = "<group>"; };
+		3299F8A82744F54C0088AADA /* assert */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assert; sourceTree = "<group>"; };
+		3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.vs; sourceTree = "<group>"; };
+		3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.fs; sourceTree = "<group>"; };
+		3299F8AE2744F8A50088AADA /* main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3299F8A32744F37D0088AADA /* libglfw.3.3.dylib in Frameworks */,
+				3299F89F2744F34C0088AADA /* OpenGL.framework in Frameworks */,
+				3299F8A12744F36E0088AADA /* libGLEW.2.2.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +60,11 @@
 		3299F8752744EC770088AADA = {
 			isa = PBXGroup;
 			children = (
+				3299F8972744ECB70088AADA /* README.md */,
+				3299F8A82744F54C0088AADA /* assert */,
 				3299F8802744EC770088AADA /* glCoordinate */,
 				3299F87F2744EC770088AADA /* Products */,
+				3299F89D2744F34B0088AADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,17 +79,29 @@
 		3299F8802744EC770088AADA /* glCoordinate */ = {
 			isa = PBXGroup;
 			children = (
-				3299F8812744EC770088AADA /* AppDelegate.h */,
-				3299F8822744EC770088AADA /* AppDelegate.m */,
-				3299F8842744EC770088AADA /* ViewController.h */,
-				3299F8852744EC770088AADA /* ViewController.m */,
 				3299F8872744EC7D0088AADA /* Assets.xcassets */,
 				3299F8892744EC7D0088AADA /* Main.storyboard */,
 				3299F88C2744EC7D0088AADA /* Info.plist */,
-				3299F88D2744EC7D0088AADA /* main.m */,
 				3299F88F2744EC7D0088AADA /* glCoordinate.entitlements */,
+				3299F8952744ECA40088AADA /* main.cpp */,
+				3299F8AE2744F8A50088AADA /* main1.cpp */,
+				3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */,
+				3299F8A42744F45E0088AADA /* glad.c */,
+				3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */,
+				3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */,
+				3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */,
 			);
 			path = glCoordinate;
+			sourceTree = "<group>";
+		};
+		3299F89D2744F34B0088AADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */,
+				3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */,
+				3299F89E2744F34C0088AADA /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3299F8A92744F54C0088AADA /* assert in Resources */,
+				3299F89C2744F2660088AADA /* 6.1.coordinate_systems.fs in Resources */,
+				3299F8982744ECB80088AADA /* README.md in Resources */,
+				3299F8AD2744F8880088AADA /* 6.2.coordinate_systems.fs in Resources */,
+				3299F8AB2744F8610088AADA /* 6.2.coordinate_systems.vs in Resources */,
 				3299F8882744EC7D0088AADA /* Assets.xcassets in Resources */,
+				3299F89A2744F2410088AADA /* 6.1.coordinate_systems.vs in Resources */,
 				3299F88B2744EC7D0088AADA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3299F8862744EC770088AADA /* ViewController.m in Sources */,
-				3299F88E2744EC7D0088AADA /* main.m in Sources */,
-				3299F8832744EC770088AADA /* AppDelegate.m in Sources */,
+				3299F8AF2744F8A50088AADA /* main1.cpp in Sources */,
+				3299F8962744ECA40088AADA /* main.cpp in Sources */,
+				3299F8A52744F45E0088AADA /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +315,21 @@
 				CODE_SIGN_ENTITLEMENTS = glCoordinate/glCoordinate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include/glm,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
 				INFOPLIST_FILE = glCoordinate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glCoordinate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,10 +343,21 @@
 				CODE_SIGN_ENTITLEMENTS = glCoordinate/glCoordinate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include/glm,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
 				INFOPLIST_FILE = glCoordinate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glCoordinate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
