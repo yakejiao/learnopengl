@@ -109,8 +109,11 @@ int main()
 ```
 
 
-# 4.
+# 4. glCoordinate
 
+
+
+#define STB_IMAGE_IMPLEMENTATION
 
 
 
