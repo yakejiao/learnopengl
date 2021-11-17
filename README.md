@@ -110,3 +110,31 @@ int main()
 
 
 # 4.
+
+
+
+
+# 中英对照
+
+* Vector 向量。基本的定义就是一个方向，或者更正式的说，向量有一个方向(Direction)和大小(Magnitude，也叫做强度或长度)。
+* Direction 方向 
+* Magnitude 大小(也叫做强度或长度) 
+* Dimension  维度
+* Position Vector 位置向量
+* Negate 向量取反
+
+* Scalar 标量，只是一个数字（或者说是仅有一个分量的向量）。
+* Unit Vector 单位向量， 单位向量有一个特别的性质——它的长度是1。可以用任意向量的每个分量除以向量的长度得到它的单位向量n̂ ：
+n̂ =v¯||v¯||
+
+我们把这种方法叫做一个向量的标准化(Normalizing)
+
+* Normalizing 标准化
+
+* Orthogonal 正交
+
+* Pythagoras Theorem 勾股定理
+
+* Identity Matrix 单位矩阵
+* Scaling 缩放
+* Translation 位移

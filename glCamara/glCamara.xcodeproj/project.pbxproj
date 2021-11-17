@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3299F8882744EC7D0088AADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8872744EC7D0088AADA /* Assets.xcassets */; };
+		3299F88B2744EC7D0088AADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8892744EC7D0088AADA /* Main.storyboard */; };
+		3299F8962744ECA40088AADA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8952744ECA40088AADA /* main.cpp */; };
+		3299F8982744ECB80088AADA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8972744ECB70088AADA /* README.md */; };
+		3299F89A2744F2410088AADA /* 6.1.coordinate_systems.vs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */; };
+		3299F89C2744F2660088AADA /* 6.1.coordinate_systems.fs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */; };
+		3299F89F2744F34C0088AADA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F89E2744F34C0088AADA /* OpenGL.framework */; };
+		3299F8A12744F36E0088AADA /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */; };
+		3299F8A32744F37D0088AADA /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */; };
+		3299F8A52744F45E0088AADA /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8A42744F45E0088AADA /* glad.c */; };
+		3299F8A92744F54C0088AADA /* assert in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8A82744F54C0088AADA /* assert */; };
+		3299F8AB2744F8610088AADA /* 6.2.coordinate_systems.vs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */; };
+		3299F8AD2744F8880088AADA /* 6.2.coordinate_systems.fs in Resources */ = {isa = PBXBuildFile; fileRef = 3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */; };
+		3299F8AF2744F8A50088AADA /* main1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3299F8AE2744F8A50088AADA /* main1.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3299F87E2744EC770088AADA /* glCamara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glCamara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3299F8872744EC7D0088AADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3299F88A2744EC7D0088AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3299F88C2744EC7D0088AADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3299F88F2744EC7D0088AADA /* glCamara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glCamara.entitlements; sourceTree = "<group>"; };
+		3299F8952744ECA40088AADA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3299F8972744ECB70088AADA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.1.coordinate_systems.vs; sourceTree = "<group>"; };
+		3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.1.coordinate_systems.fs; sourceTree = "<group>"; };
+		3299F89E2744F34C0088AADA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../../../usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		3299F8A42744F45E0088AADA /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../include/glad/src/glad.c; sourceTree = "<group>"; };
+		3299F8A82744F54C0088AADA /* assert */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assert; sourceTree = "<group>"; };
+		3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.vs; sourceTree = "<group>"; };
+		3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.fs; sourceTree = "<group>"; };
+		3299F8AE2744F8A50088AADA /* main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3299F87B2744EC770088AADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3299F8A32744F37D0088AADA /* libglfw.3.3.dylib in Frameworks */,
+				3299F89F2744F34C0088AADA /* OpenGL.framework in Frameworks */,
+				3299F8A12744F36E0088AADA /* libGLEW.2.2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3299F8752744EC770088AADA = {
+			isa = PBXGroup;
+			children = (
+				3299F8972744ECB70088AADA /* README.md */,
+				3299F8A82744F54C0088AADA /* assert */,
+				3299F8802744EC770088AADA /* glCamara */,
+				3299F87F2744EC770088AADA /* Products */,
+				3299F89D2744F34B0088AADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3299F87F2744EC770088AADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3299F87E2744EC770088AADA /* glCamara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3299F8802744EC770088AADA /* glCamara */ = {
+			isa = PBXGroup;
+			children = (
+				3299F8872744EC7D0088AADA /* Assets.xcassets */,
+				3299F8892744EC7D0088AADA /* Main.storyboard */,
+				3299F88C2744EC7D0088AADA /* Info.plist */,
+				3299F88F2744EC7D0088AADA /* glCamara.entitlements */,
+				3299F8952744ECA40088AADA /* main.cpp */,
+				3299F8AE2744F8A50088AADA /* main1.cpp */,
+				3299F8992744F2410088AADA /* 6.1.coordinate_systems.vs */,
+				3299F8A42744F45E0088AADA /* glad.c */,
+				3299F89B2744F2660088AADA /* 6.1.coordinate_systems.fs */,
+				3299F8AA2744F8610088AADA /* 6.2.coordinate_systems.vs */,
+				3299F8AC2744F8880088AADA /* 6.2.coordinate_systems.fs */,
+			);
+			path = glCamara;
+			sourceTree = "<group>";
+		};
+		3299F89D2744F34B0088AADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3299F8A02744F36E0088AADA /* libGLEW.2.2.0.dylib */,
+				3299F8A22744F37D0088AADA /* libglfw.3.3.dylib */,
+				3299F89E2744F34C0088AADA /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3299F87D2744EC770088AADA /* glCamara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3299F8922744EC7D0088AADA /* Build configuration list for PBXNativeTarget "glCamara" */;
+			buildPhases = (
+				3299F87A2744EC770088AADA /* Sources */,
+				3299F87B2744EC770088AADA /* Frameworks */,
+				3299F87C2744EC770088AADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glCamara;
+			productName = glCoordinate;
+			productReference = 3299F87E2744EC770088AADA /* glCamara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3299F8762744EC770088AADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yake;
+				TargetAttributes = {
+					3299F87D2744EC770088AADA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 3299F8792744EC770088AADA /* Build configuration list for PBXProject "glCamara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3299F8752744EC770088AADA;
+			productRefGroup = 3299F87F2744EC770088AADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3299F87D2744EC770088AADA /* glCamara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3299F87C2744EC770088AADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3299F8A92744F54C0088AADA /* assert in Resources */,
+				3299F89C2744F2660088AADA /* 6.1.coordinate_systems.fs in Resources */,
+				3299F8982744ECB80088AADA /* README.md in Resources */,
+				3299F8AD2744F8880088AADA /* 6.2.coordinate_systems.fs in Resources */,
+				3299F8AB2744F8610088AADA /* 6.2.coordinate_systems.vs in Resources */,
+				3299F8882744EC7D0088AADA /* Assets.xcassets in Resources */,
+				3299F89A2744F2410088AADA /* 6.1.coordinate_systems.vs in Resources */,
+				3299F88B2744EC7D0088AADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3299F87A2744EC770088AADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3299F8AF2744F8A50088AADA /* main1.cpp in Sources */,
+				3299F8962744ECA40088AADA /* main.cpp in Sources */,
+				3299F8A52744F45E0088AADA /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3299F8892744EC7D0088AADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3299F88A2744EC7D0088AADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3299F8902744EC7D0088AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3299F8912744EC7D0088AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3299F8932744EC7D0088AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glCoordinate/glCamara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include/glm,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
+				INFOPLIST_FILE = glCamara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glCamara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3299F8942744EC7D0088AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = glCoordinate/glCamara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include/glm,
+					/Users/yake/developer/mywork/project/myTest/iOSDemo/glTest1/learnopengl/include,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+					/usr/local/Cellar/glew/2.2.0/lib,
+				);
+				INFOPLIST_FILE = glCamara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.4/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itongjia.glCamara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3299F8792744EC770088AADA /* Build configuration list for PBXProject "glCamara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3299F8902744EC7D0088AADA /* Debug */,
+				3299F8912744EC7D0088AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3299F8922744EC7D0088AADA /* Build configuration list for PBXNativeTarget "glCamara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3299F8932744EC7D0088AADA /* Debug */,
+				3299F8942744EC7D0088AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3299F8762744EC770088AADA /* Project object */;
+}
