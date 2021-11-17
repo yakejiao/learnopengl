@@ -27,11 +27,18 @@ learnopengl教程：https://learnopengl-cn.github.io/01%20Getting%20started/04%2
 
 ## 创建main.cpp文件
 
-## 添加依赖header
+## 添加依赖Header Search Paths
 
 /usr/local/include
 /usr/local/Cellar/glfw/3.3.4/lib
 /usr/local/Cellar/glew/2.2.0/lib
+
+
+## 添加Library Search Paths
+
+/usr/local/Cellar/glew/2.2.0_1/lib
+/usr/local/Cellar/glfw/3.3.4/lib
+
 
 ## Build Phases -> Link Binary With Libraries
 
@@ -70,7 +77,36 @@ learnopengl教程：https://learnopengl-cn.github.io/01%20Getting%20started/04%2
 * 第二部分是把2D坐标转变为实际的有颜色的像素。
 
 
-# 3. glRectangle
+# 3. Shaders
+
+着色器(Shader)是运行在GPU上的小程序。
+这些小程序为图形渲染管线的某个特定部分而运行。从基本意义上来说，着色器只是一种把输入转化为输出的程序。着色器也是一种非常独立的程序，因为它们之间不能相互通信；它们之间唯一的沟通只有通过输入和输出。
+
+## GLSL(着色器语言)
+
+着色器是使用一种叫GLSL的类C语言写成的。
+
+着色器是使用一种叫GLSL的类C语言写成的。GLSL是为图形计算量身定制的，它包含一些针对向量和矩阵操作的有用特性。着色器的开头总是要声明版本，接着是输入和输出变量、uniform和main函数。每个着色器的入口点都是main函数，在这个函数中我们处理所有的输入变量，并将结果输出到输出变量中。如果你不知道什么是uniform也不用担心，我们后面会进行讲解。
+
+一个典型的着色器有下面的结构：
+
+```
+#version version_number
+in type in_variable_name;
+in type in_variable_name;
+
+out type out_variable_name;
+
+uniform type uniform_name;
+
+int main()
+{
+  // 处理输入并进行一些图形操作
+  ...
+  // 输出处理过的结果到输出变量
+  out_variable_name = weird_stuff_we_processed;
+}
+```
 
 
 # 4.
